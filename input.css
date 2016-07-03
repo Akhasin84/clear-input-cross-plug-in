@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 10px;
+}
+
+textarea,
+input {
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin-top: 20px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.clear__1{
+	width: 400px;
+}
+
+.clear__3{
+	width: 600px;
+}
+
+.clear__5{
+	width: 800px;
+}
+
+.clear__this__input{
+	display: inline-block;
+}
+
+
+
+/*add below to css file*/
+.clear__cross{
+	display: block;
+    position: absolute;
+    cursor: pointer;
+    color: rgba(128, 128, 128, 0.86);
+    -webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg)
+}
